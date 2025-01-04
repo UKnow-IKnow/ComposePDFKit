@@ -3,9 +3,8 @@ package com.example.composepdfkit.common.utils
 import android.content.Context
 import android.net.Uri
 import java.io.File
-import java.io.InputStream
 
-internal object FileUtils {
+internal object DocumentUtils {
     fun createTempFile(context: Context, prefix: String, extension: String): File {
         return File(context.cacheDir, "${prefix}_${System.currentTimeMillis()}.$extension")
     }
