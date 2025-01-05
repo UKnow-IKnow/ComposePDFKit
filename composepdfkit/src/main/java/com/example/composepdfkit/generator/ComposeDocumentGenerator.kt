@@ -6,7 +6,7 @@ import com.example.composepdfkit.generator.core.DocumentGenerator
 import com.example.composepdfkit.generator.core.PdfGenerator
 import java.io.File
 
-class ComposeDocumentGenerator internal constructor(private val context: Context) {
+class ComposeDocumentGenerator internal constructor() {
 
     class ComposeDocumentGenerator internal constructor(
         context: Context
